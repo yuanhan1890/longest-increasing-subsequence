@@ -1,8 +1,5 @@
 export default (arr) => {
 	return arr.reduce((ret, cur, idx, arr) => {
-
-		//var insertIdx = search(cur, ret)
-
 		let lo = 0
 		let hi = ret.length
 
