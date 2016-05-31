@@ -3,6 +3,6 @@
 --reporter spec
 --ui bdd
 --recursive
---bail
 
 dumb_solution/**/*__tests__*/**/*.js
+wiki_recommend/**/*__tests__*/**/*.js
