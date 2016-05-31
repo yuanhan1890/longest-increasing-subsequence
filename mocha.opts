@@ -1,0 +1,8 @@
+--compilers js:babel-core/register
+--require babel-core/register
+--reporter spec
+--ui bdd
+--recursive
+--bail
+
+dumb_solution/**/*__tests__*/**/*.js
