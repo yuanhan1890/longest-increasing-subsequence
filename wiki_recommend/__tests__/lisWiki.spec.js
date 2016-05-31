@@ -12,7 +12,7 @@ function reconstruct(arr) {
 		return pre
 	},[])
 }
-describe('find longest increasing subsequence', () => {  
+describe("find longest increasing subsequence using wiki's method", () => {  
 	it('has four lis, but we only need one.', () => {
 		let arr = [1, 3, 5, 0, 4, 2, 7, 6, 8, 9]
 		let ret = reconstruct(arr)
